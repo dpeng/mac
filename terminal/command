@@ -1,2 +1,3 @@
 open ./: open current folder in finder
 Open +filename: open file in default text editer
+test
