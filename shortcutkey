@@ -1,0 +1,3 @@
+command +c: copy
+command +v: past
+command +w: close
