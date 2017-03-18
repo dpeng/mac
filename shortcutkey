@@ -1,3 +1,4 @@
 command +c: copy
 command +v: past
 command +w: close
+command +r: reload the safari current page
