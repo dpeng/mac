@@ -1,0 +1,2 @@
+1. gcc already install together with xcode
+2. git already install together with xcode
