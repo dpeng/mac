@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1449A3551E801DD3009E0184 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1449A3541E801DD3009E0184 /* AppDelegate.m */; };
+		1449A3581E801DD3009E0184 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1449A3571E801DD3009E0184 /* main.m */; };
+		1449A35B1E801DD3009E0184 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1449A35A1E801DD3009E0184 /* ViewController.m */; };
+		1449A35D1E801DD3009E0184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1449A35C1E801DD3009E0184 /* Assets.xcassets */; };
+		1449A3601E801DD3009E0184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1449A35E1E801DD3009E0184 /* Main.storyboard */; };
+		1449A36B1E801DD3009E0184 /* hellomacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1449A36A1E801DD3009E0184 /* hellomacTests.m */; };
+		1449A3761E801DD3009E0184 /* hellomacUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1449A3751E801DD3009E0184 /* hellomacUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1449A3671E801DD3009E0184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1449A3481E801DD3009E0184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1449A34F1E801DD3009E0184;
+			remoteInfo = hellomac;
+		};
+		1449A3721E801DD3009E0184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1449A3481E801DD3009E0184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1449A34F1E801DD3009E0184;
+			remoteInfo = hellomac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1449A3501E801DD3009E0184 /* hellomac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hellomac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1449A3531E801DD3009E0184 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1449A3541E801DD3009E0184 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1449A3571E801DD3009E0184 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1449A3591E801DD3009E0184 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1449A35A1E801DD3009E0184 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1449A35C1E801DD3009E0184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1449A35F1E801DD3009E0184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1449A3611E801DD3009E0184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1449A3661E801DD3009E0184 /* hellomacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellomacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1449A36A1E801DD3009E0184 /* hellomacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hellomacTests.m; sourceTree = "<group>"; };
+		1449A36C1E801DD3009E0184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1449A3711E801DD3009E0184 /* hellomacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellomacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1449A3751E801DD3009E0184 /* hellomacUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hellomacUITests.m; sourceTree = "<group>"; };
+		1449A3771E801DD3009E0184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1449A34D1E801DD3009E0184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1449A3631E801DD3009E0184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1449A36E1E801DD3009E0184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1449A3471E801DD3009E0184 = {
+			isa = PBXGroup;
+			children = (
+				1449A3521E801DD3009E0184 /* hellomac */,
+				1449A3691E801DD3009E0184 /* hellomacTests */,
+				1449A3741E801DD3009E0184 /* hellomacUITests */,
+				1449A3511E801DD3009E0184 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1449A3511E801DD3009E0184 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1449A3501E801DD3009E0184 /* hellomac.app */,
+				1449A3661E801DD3009E0184 /* hellomacTests.xctest */,
+				1449A3711E801DD3009E0184 /* hellomacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1449A3521E801DD3009E0184 /* hellomac */ = {
+			isa = PBXGroup;
+			children = (
+				1449A3531E801DD3009E0184 /* AppDelegate.h */,
+				1449A3541E801DD3009E0184 /* AppDelegate.m */,
+				1449A3591E801DD3009E0184 /* ViewController.h */,
+				1449A35A1E801DD3009E0184 /* ViewController.m */,
+				1449A35C1E801DD3009E0184 /* Assets.xcassets */,
+				1449A35E1E801DD3009E0184 /* Main.storyboard */,
+				1449A3611E801DD3009E0184 /* Info.plist */,
+				1449A3561E801DD3009E0184 /* Supporting Files */,
+			);
+			path = hellomac;
+			sourceTree = "<group>";
+		};
+		1449A3561E801DD3009E0184 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1449A3571E801DD3009E0184 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1449A3691E801DD3009E0184 /* hellomacTests */ = {
+			isa = PBXGroup;
+			children = (
+				1449A36A1E801DD3009E0184 /* hellomacTests.m */,
+				1449A36C1E801DD3009E0184 /* Info.plist */,
+			);
+			path = hellomacTests;
+			sourceTree = "<group>";
+		};
+		1449A3741E801DD3009E0184 /* hellomacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1449A3751E801DD3009E0184 /* hellomacUITests.m */,
+				1449A3771E801DD3009E0184 /* Info.plist */,
+			);
+			path = hellomacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1449A34F1E801DD3009E0184 /* hellomac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1449A37A1E801DD3009E0184 /* Build configuration list for PBXNativeTarget "hellomac" */;
+			buildPhases = (
+				1449A34C1E801DD3009E0184 /* Sources */,
+				1449A34D1E801DD3009E0184 /* Frameworks */,
+				1449A34E1E801DD3009E0184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hellomac;
+			productName = hellomac;
+			productReference = 1449A3501E801DD3009E0184 /* hellomac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1449A3651E801DD3009E0184 /* hellomacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1449A37D1E801DD3009E0184 /* Build configuration list for PBXNativeTarget "hellomacTests" */;
+			buildPhases = (
+				1449A3621E801DD3009E0184 /* Sources */,
+				1449A3631E801DD3009E0184 /* Frameworks */,
+				1449A3641E801DD3009E0184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1449A3681E801DD3009E0184 /* PBXTargetDependency */,
+			);
+			name = hellomacTests;
+			productName = hellomacTests;
+			productReference = 1449A3661E801DD3009E0184 /* hellomacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1449A3701E801DD3009E0184 /* hellomacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1449A3801E801DD3009E0184 /* Build configuration list for PBXNativeTarget "hellomacUITests" */;
+			buildPhases = (
+				1449A36D1E801DD3009E0184 /* Sources */,
+				1449A36E1E801DD3009E0184 /* Frameworks */,
+				1449A36F1E801DD3009E0184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1449A3731E801DD3009E0184 /* PBXTargetDependency */,
+			);
+			name = hellomacUITests;
+			productName = hellomacUITests;
+			productReference = 1449A3711E801DD3009E0184 /* hellomacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1449A3481E801DD3009E0184 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Nokia;
+				TargetAttributes = {
+					1449A34F1E801DD3009E0184 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					1449A3651E801DD3009E0184 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1449A34F1E801DD3009E0184;
+					};
+					1449A3701E801DD3009E0184 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1449A34F1E801DD3009E0184;
+					};
+				};
+			};
+			buildConfigurationList = 1449A34B1E801DD3009E0184 /* Build configuration list for PBXProject "hellomac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1449A3471E801DD3009E0184;
+			productRefGroup = 1449A3511E801DD3009E0184 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1449A34F1E801DD3009E0184 /* hellomac */,
+				1449A3651E801DD3009E0184 /* hellomacTests */,
+				1449A3701E801DD3009E0184 /* hellomacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1449A34E1E801DD3009E0184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1449A35D1E801DD3009E0184 /* Assets.xcassets in Resources */,
+				1449A3601E801DD3009E0184 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1449A3641E801DD3009E0184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1449A36F1E801DD3009E0184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1449A34C1E801DD3009E0184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1449A35B1E801DD3009E0184 /* ViewController.m in Sources */,
+				1449A3581E801DD3009E0184 /* main.m in Sources */,
+				1449A3551E801DD3009E0184 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1449A3621E801DD3009E0184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1449A36B1E801DD3009E0184 /* hellomacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1449A36D1E801DD3009E0184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1449A3761E801DD3009E0184 /* hellomacUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1449A3681E801DD3009E0184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1449A34F1E801DD3009E0184 /* hellomac */;
+			targetProxy = 1449A3671E801DD3009E0184 /* PBXContainerItemProxy */;
+		};
+		1449A3731E801DD3009E0184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1449A34F1E801DD3009E0184 /* hellomac */;
+			targetProxy = 1449A3721E801DD3009E0184 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1449A35E1E801DD3009E0184 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1449A35F1E801DD3009E0184 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1449A3781E801DD3009E0184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1449A3791E801DD3009E0184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1449A37B1E801DD3009E0184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = hellomac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nokia.hellomac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1449A37C1E801DD3009E0184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = hellomac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nokia.hellomac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1449A37E1E801DD3009E0184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = hellomacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nokia.hellomacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hellomac.app/Contents/MacOS/hellomac";
+			};
+			name = Debug;
+		};
+		1449A37F1E801DD3009E0184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = hellomacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nokia.hellomacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hellomac.app/Contents/MacOS/hellomac";
+			};
+			name = Release;
+		};
+		1449A3811E801DD3009E0184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = hellomacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nokia.hellomacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hellomac;
+			};
+			name = Debug;
+		};
+		1449A3821E801DD3009E0184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = hellomacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nokia.hellomacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hellomac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1449A34B1E801DD3009E0184 /* Build configuration list for PBXProject "hellomac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1449A3781E801DD3009E0184 /* Debug */,
+				1449A3791E801DD3009E0184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1449A37A1E801DD3009E0184 /* Build configuration list for PBXNativeTarget "hellomac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1449A37B1E801DD3009E0184 /* Debug */,
+				1449A37C1E801DD3009E0184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1449A37D1E801DD3009E0184 /* Build configuration list for PBXNativeTarget "hellomacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1449A37E1E801DD3009E0184 /* Debug */,
+				1449A37F1E801DD3009E0184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1449A3801E801DD3009E0184 /* Build configuration list for PBXNativeTarget "hellomacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1449A3811E801DD3009E0184 /* Debug */,
+				1449A3821E801DD3009E0184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1449A3481E801DD3009E0184 /* Project object */;
+}
