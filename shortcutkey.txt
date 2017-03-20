@@ -1,6 +1,6 @@
-command +c: copy
-command +v: past
-command +w: close
-command +r: reload the safari current page
-command +'+': can enlarge the terminal font, same with the minus symbol
-option +'mouse click on icon': can min/restore the application
+command + c: copy
+command + v: past
+command + w: close
+command + r: reload the safari current page
+command + '+': can enlarge the terminal font, same with the minus symbol
+option + 'mouse click on icon': can min/restore the application

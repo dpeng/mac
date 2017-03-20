@@ -1,1 +1,1 @@
-1. vpn setting could be done very simplly, system prefereces --> Network --> '+' create new service
+1. VPN setting could be done very simply, system preferences --> Network --> '+' create new service
