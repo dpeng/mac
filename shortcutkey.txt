@@ -4,3 +4,4 @@ command + w: close
 command + r: reload the safari current page
 command + '+': can enlarge the terminal font, same with the minus symbol
 option + 'mouse click on icon': can min/restore the application
+control + 'space': switch the input methold, but i change it back to caps lock after one day as default
