@@ -1,3 +1,4 @@
 1. lots of programmer worried that the escape key will be inconvenient to user after the touch bar added, but it is don't, even more comfortable to use it. at least in my POV.
 2. the touch bar is very easy to use and you will feel happy after it replace the F1 to F12
 3. the keyboard is very comfortably to use, before mac book, I use the Microsoft designer keyboard and mouse, I can adapt it easily and quickly.
+4. If you just want to use it for develop which using xcode, gcc etc.. the 8G memory is enough for you.
