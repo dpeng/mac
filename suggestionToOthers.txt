@@ -2,3 +2,4 @@
 2. the touch bar is very easy to use and you will feel happy after it replace the F1 to F12
 3. the keyboard is very comfortably to use, before mac book, I use the Microsoft designer keyboard and mouse, I can adapt it easily and quickly.
 4. If you just want to use it for develop which using xcode, gcc etc.. the 8G memory is enough for you.
+4. The airdrop is very easy to use between iphone, ipad and mac
