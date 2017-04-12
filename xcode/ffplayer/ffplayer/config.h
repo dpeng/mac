@@ -303,7 +303,7 @@
 #define HAVE_UNISTD_H 1
 #define HAVE_VALGRIND_VALGRIND_H 0
 #define HAVE_WINDOWS_H 1
-#define HAVE_WINSOCK2_H 1
+#define HAVE_WINSOCK2_H 0
 #define HAVE_INTRINSICS_NEON 0
 #define HAVE_ATANF 1
 #define HAVE_ATAN2F 1
@@ -583,7 +583,7 @@
 #define CONFIG_AUDIOTOOLBOX 0
 #define CONFIG_CUDA 1
 #define CONFIG_CUVID 1
-#include <sdkddkver.h>
+//#include <sdkddkver.h>
 #if defined(NTDDI_WIN8)
 #   define CONFIG_D3D11VA 1
 #else
@@ -2060,13 +2060,13 @@
 #define CONFIG_VP8_CUVID_HWACCEL 1
 #define CONFIG_VP8_MEDIACODEC_HWACCEL 0
 #define CONFIG_VP9_CUVID_HWACCEL 1
-#include <sdkddkver.h>
+//#include <sdkddkver.h>
 #if defined(NTDDI_WIN10_TH2)
 #   define CONFIG_VP9_D3D11VA_HWACCEL 1
 #else
 #   define CONFIG_VP9_D3D11VA_HWACCEL 0
 #endif
-#include <sdkddkver.h>
+//#include <sdkddkver.h>
 #if defined(NTDDI_WIN10_TH2)
 #   define CONFIG_VP9_DXVA2_HWACCEL 1
 #else

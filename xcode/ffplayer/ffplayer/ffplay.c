@@ -3756,6 +3756,7 @@ int ffplay_get_stream_totaltime(void)
 {
 	if ((NULL != m_curstream) && (m_curstream->ic))
 		return m_curstream->ic->duration / 1000000LL;
+    return 0;
 }
 
 
@@ -3764,6 +3765,7 @@ double ffplay_get_stream_curtime(void)
 {
 	if(m_curstream)
 		return get_master_clock(m_curstream);
+    return 0.0;
 }
 
 void ffplay_seek(double pos)/*pos indicate the precentage of whole file such as 45%*/

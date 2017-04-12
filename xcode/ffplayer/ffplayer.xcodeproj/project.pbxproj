@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		14535FA91E9BBF9600481C32 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 14535FA81E9BBF9600481C32 /* main.c */; };
+		149D937E1E9E63B200BE7C15 /* cmdutils.c in Sources */ = {isa = PBXBuildFile; fileRef = 149D93781E9E63B200BE7C15 /* cmdutils.c */; };
+		149D937F1E9E63B200BE7C15 /* dce_defs.c in Sources */ = {isa = PBXBuildFile; fileRef = 149D937B1E9E63B200BE7C15 /* dce_defs.c */; };
+		149D93801E9E63B200BE7C15 /* ffplay.c in Sources */ = {isa = PBXBuildFile; fileRef = 149D937C1E9E63B200BE7C15 /* ffplay.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		14535FA51E9BBF9600481C32 /* ffplayer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ffplayer; sourceTree = BUILT_PRODUCTS_DIR; };
 		14535FA81E9BBF9600481C32 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		149D93771E9E63B200BE7C15 /* cmdutils_common_opts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmdutils_common_opts.h; sourceTree = "<group>"; };
+		149D93781E9E63B200BE7C15 /* cmdutils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmdutils.c; sourceTree = "<group>"; };
+		149D93791E9E63B200BE7C15 /* cmdutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmdutils.h; sourceTree = "<group>"; };
+		149D937A1E9E63B200BE7C15 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		149D937B1E9E63B200BE7C15 /* dce_defs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dce_defs.c; sourceTree = "<group>"; };
+		149D937C1E9E63B200BE7C15 /* ffplay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ffplay.c; sourceTree = "<group>"; };
+		149D937D1E9E63B200BE7C15 /* ffplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffplay.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,24 @@
 		14535FA71E9BBF9600481C32 /* ffplayer */ = {
 			isa = PBXGroup;
 			children = (
+				149D93761E9E638400BE7C15 /* ffmpeg */,
+				149D93771E9E63B200BE7C15 /* cmdutils_common_opts.h */,
+				149D93781E9E63B200BE7C15 /* cmdutils.c */,
+				149D93791E9E63B200BE7C15 /* cmdutils.h */,
+				149D937A1E9E63B200BE7C15 /* config.h */,
+				149D937B1E9E63B200BE7C15 /* dce_defs.c */,
+				149D937C1E9E63B200BE7C15 /* ffplay.c */,
+				149D937D1E9E63B200BE7C15 /* ffplay.h */,
 				14535FA81E9BBF9600481C32 /* main.c */,
 			);
 			path = ffplayer;
+			sourceTree = "<group>";
+		};
+		149D93761E9E638400BE7C15 /* ffmpeg */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ffmpeg;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				149D937E1E9E63B200BE7C15 /* cmdutils.c in Sources */,
+				149D937F1E9E63B200BE7C15 /* dce_defs.c in Sources */,
 				14535FA91E9BBF9600481C32 /* main.c in Sources */,
+				149D93801E9E63B200BE7C15 /* ffplay.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +246,9 @@
 		14535FAD1E9BBF9600481C32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = ./SDL/include/;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = ./ffmpeg/include/;
 			};
 			name = Debug;
 		};
@@ -248,6 +278,7 @@
 				14535FAE1E9BBF9600481C32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
