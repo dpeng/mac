@@ -1,0 +1,16 @@
+### APIECKAM Team.
+
+echo "将要更新您的host信息，确定吗?【输入数字】"
+select yn in "Yes" "No"; do
+    case $yn in
+        Yes ) echo "127.0.0.1     activate.xmind.net" >> /etc/hosts;
+              echo "127.0.0.1     practivate.xmind.net" >> /etc/hosts;
+              echo "127.0.0.1     lm.licenses.xmind.net" >> /etc/hosts;
+              echo "127.0.0.1     lmlicenses.xmind.net" >> /etc/hosts;
+              echo "127.0.0.1     www.xmind.net" >> /etc/hosts;
+              echo "127.0.0.1     na1r.services.xmind.net" >> /etc/hosts;
+               break;;
+        No ) break;;
+    esac
+done
+
