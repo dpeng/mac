@@ -1,0 +1,354 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "office/onedrive.txt",
+			"settings":
+			{
+				"buffer_size": 247,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "terminal/command.txt",
+			"settings":
+			{
+				"buffer_size": 90,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/dpeng/code/mac",
+		"/Users/dpeng/code/mac/office",
+		"/Users/dpeng/code/mac/software",
+		"/Users/dpeng/code/mac/software/xmind",
+		"/Users/dpeng/code/mac/software/xmind/Mac",
+		"/Users/dpeng/code/mac/software/xmind/Win",
+		"/Users/dpeng/code/mac/temp",
+		"/Users/dpeng/code/mac/terminal"
+	],
+	"file_history":
+	[
+		"/Users/dpeng/code/mac/temp/Install_Cisco-Jabber-Mac-11.7.1.245429-65650369.zip",
+		"/Users/dpeng/code/work/linuxptp/address.h",
+		"/Users/dpeng/code/work/linuxptp/version.sh",
+		"/Users/dpeng/code/work/linuxptp/version.h",
+		"/Users/dpeng/code/work/linuxptp/version.c",
+		"/Users/dpeng/code/work/linuxptp/util.h",
+		"/Users/dpeng/code/work/linuxptp/util.c",
+		"/Users/dpeng/code/work/linuxptp/uds.h",
+		"/Users/dpeng/code/work/linuxptp/uds.c",
+		"/Users/dpeng/code/work/linuxptp/udp6.h",
+		"/Users/dpeng/code/work/linuxptp/udp6.c",
+		"/Users/dpeng/code/work/linuxptp/udp.h",
+		"/Users/dpeng/code/work/linuxptp/udp.c",
+		"/Users/dpeng/code/work/linuxptp/tsproc.h",
+		"/Users/dpeng/code/work/linuxptp/tsproc.c",
+		"/Users/dpeng/code/work/linuxptp/transport.h",
+		"/Users/dpeng/code/work/linuxptp/transport.c",
+		"/Users/dpeng/code/work/linuxptp/transport_private.h",
+		"/Users/dpeng/code/work/linuxptp/tmv.h",
+		"/Users/dpeng/code/work/linuxptp/tlv.h",
+		"/Users/dpeng/code/work/linuxptp/tlv.c",
+		"/Users/dpeng/code/work/linuxptp/timemaster.c",
+		"/Users/dpeng/code/work/linuxptp/timemaster.8",
+		"/Users/dpeng/code/work/linuxptp/sysoff.h",
+		"/Users/dpeng/code/work/linuxptp/sysoff.c",
+		"/Users/dpeng/code/work/linuxptp/stats.h",
+		"/Users/dpeng/code/work/linuxptp/stats.c",
+		"/Users/dpeng/code/work/linuxptp/sk.h",
+		"/Users/dpeng/code/work/linuxptp/sk.c",
+		"/Users/dpeng/code/work/linuxptp/servo.h",
+		"/Users/dpeng/code/work/linuxptp/servo.c",
+		"/Users/dpeng/code/work/linuxptp/servo_private.h",
+		"/Users/dpeng/code/work/linuxptp/rtnl.h",
+		"/Users/dpeng/code/work/linuxptp/rtnl.c",
+		"/Users/dpeng/code/work/linuxptp/README.org",
+		"/Users/dpeng/code/work/linuxptp/raw.h",
+		"/Users/dpeng/code/work/linuxptp/raw.c",
+		"/Users/dpeng/code/work/linuxptp/ptp4l.c",
+		"/Users/dpeng/code/work/linuxptp/ptp4l.8",
+		"/Users/dpeng/code/work/linuxptp/print.h",
+		"/Users/dpeng/code/work/linuxptp/print.c",
+		"/Users/dpeng/code/work/linuxptp/port.h",
+		"/Users/dpeng/code/work/linuxptp/port.c",
+		"/Users/dpeng/code/work/linuxptp/pmc.c",
+		"/Users/dpeng/code/work/linuxptp/pmc.8",
+		"/Users/dpeng/code/work/linuxptp/pmc_common.h",
+		"/Users/dpeng/code/work/linuxptp/pmc_common.c",
+		"/Users/dpeng/code/work/linuxptp/pi.h",
+		"/Users/dpeng/code/work/linuxptp/pi.c",
+		"/Users/dpeng/code/work/linuxptp/phc2sys.c",
+		"/Users/dpeng/code/work/linuxptp/phc2sys.8",
+		"/Users/dpeng/code/work/linuxptp/phc.h",
+		"/Users/dpeng/code/work/linuxptp/phc.c",
+		"/Users/dpeng/code/work/linuxptp/phc_ctl.c",
+		"/Users/dpeng/code/work/linuxptp/phc_ctl.8",
+		"/Users/dpeng/code/work/linuxptp/pdt.h",
+		"/Users/dpeng/code/work/linuxptp/nullf.h",
+		"/Users/dpeng/code/work/linuxptp/nullf.c",
+		"/Users/dpeng/code/work/linuxptp/ntpshm.h",
+		"/Users/dpeng/code/work/linuxptp/ntpshm.c",
+		"/Users/dpeng/code/work/linuxptp/notification.h",
+		"/Users/dpeng/code/work/linuxptp/msg.h",
+		"/Users/dpeng/code/work/linuxptp/msg.c",
+		"/Users/dpeng/code/work/linuxptp/mmedian.h",
+		"/Users/dpeng/code/work/linuxptp/mmedian.c",
+		"/Users/dpeng/code/work/linuxptp/missing.h",
+		"/Users/dpeng/code/work/linuxptp/mave.h",
+		"/Users/dpeng/code/work/linuxptp/mave.c",
+		"/Users/dpeng/code/work/linuxptp/makefile",
+		"/Users/dpeng/code/work/linuxptp/linreg.h",
+		"/Users/dpeng/code/work/linuxptp/linreg.c",
+		"/Users/dpeng/code/work/linuxptp/incdefs.sh",
+		"/Users/dpeng/code/work/linuxptp/hwstamp_ctl.c",
+		"/Users/dpeng/code/work/linuxptp/hwstamp_ctl.8",
+		"/Users/dpeng/code/work/linuxptp/hash.h",
+		"/Users/dpeng/code/work/linuxptp/hash.c",
+		"/Users/dpeng/code/work/linuxptp/gPTP.cfg",
+		"/Users/dpeng/code/work/linuxptp/fsm.h",
+		"/Users/dpeng/code/work/linuxptp/fsm.c",
+		"/Users/dpeng/code/work/linuxptp/foreign.h",
+		"/Users/dpeng/code/work/linuxptp/filter.h",
+		"/Users/dpeng/code/work/linuxptp/filter.c",
+		"/Users/dpeng/code/work/linuxptp/filter_private.h",
+		"/Users/dpeng/code/work/linuxptp/fd.h",
+		"/Users/dpeng/code/work/linuxptp/fault.h",
+		"/Users/dpeng/code/work/linuxptp/fault.c",
+		"/Users/dpeng/code/work/linuxptp/ether.h",
+		"/Users/dpeng/code/work/linuxptp/ds.h",
+		"/Users/dpeng/code/work/linuxptp/dm.h",
+		"/Users/dpeng/code/work/linuxptp/default.cfg",
+		"/Users/dpeng/code/work/linuxptp/ddt.h",
+		"/Users/dpeng/code/work/linuxptp/COPYING",
+		"/Users/dpeng/code/work/linuxptp/contain.h",
+		"/Users/dpeng/code/work/linuxptp/config.h",
+		"/Users/dpeng/code/work/linuxptp/config.c",
+		"/Users/dpeng/code/work/linuxptp/CODING_STYLE.org",
+		"/Users/dpeng/code/work/linuxptp/clockcheck.h",
+		"/Users/dpeng/code/work/linuxptp/clockcheck.c",
+		"/Users/dpeng/code/work/linuxptp/clockadj.h",
+		"/Users/dpeng/code/work/linuxptp/clockadj.c",
+		"/Users/dpeng/code/work/linuxptp/clock.h",
+		"/Users/dpeng/code/work/linuxptp/clock.c",
+		"/Users/dpeng/code/work/linuxptp/bmc.h",
+		"/Users/dpeng/code/work/linuxptp/bmc.c",
+		"/Users/dpeng/code/FFmpeg/ffplay.c"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "office/onedrive.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								246,
+								246
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "terminal/command.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 90,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								90,
+								90
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mac.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 192.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
