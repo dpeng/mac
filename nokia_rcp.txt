@@ -1,0 +1,10 @@
+{
+  "insecure-registries" : [
+    "rcp-docker.eecloud.dynamic.nsn-net.net:5000"
+  ]
+}
+
+docker pull  rcp-docker.eecloud.dynamic.nsn-net.net:5000/rcp_common_dev:RCP_COMMON_17.28.0
+
+docker run --name="nokia" -v /Users/dpeng/code/:/root/workspace -it rcp-docker.eecloud.dynamic.nsn-net.net:5000/rcp_common_dev:RCP_COMMON_17.28.0 /bin/bash
+
