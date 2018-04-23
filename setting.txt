@@ -1,1 +1,3 @@
 1. VPN setting could be done very simply, system preferences --> Network --> '+' create new service
+2. If you going to System preferences --> Mission COntrol --> Hot Corners, you will find something amazing. you could specify some appilcation/function to hot corner, if your mouse move to that concer, it will run the funcions you specified
+3. You could set the dashboard to off or as overlay by System Preferences --> Mission Control --> Dashboard
